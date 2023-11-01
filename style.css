@@ -216,8 +216,16 @@ header .content2 p {
     
 }
 
+#padding-first {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+#padding-last {
+   padding-right: 20px;
+}
 #padding {
     padding-left: 15px;
+    /* padding-right: 15px; */
 }
 
  .icon-button  span {
@@ -412,7 +420,7 @@ border-radius: 50%;
 }
 
 .card .h3-azmiu{
-   font-size: 0.8rem;
+   font-size: 1.5rem;
    color: #dce0e0;
    text-align: center;
    padding: 60px 20px;
@@ -454,7 +462,10 @@ border-radius: 50%;
 .wrapper {
    display: inline-flex;
    padding:  0 90px;
+
 }
+
+
 
 .wrapper .icon {
    margin: 0 20px;
@@ -484,6 +495,9 @@ border-radius: 50%;
 
 }
 
+.wrapper .icon span i {
+   color: black;
+}
 .wrapper .icon:hover span i{
    color: #fff;
    transition: all 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
@@ -554,10 +568,80 @@ background: linear-gradient(90deg, rgba(247,247,243,1) 0%, rgba(104,100,104,0.99
 
 
 .h1-social {
-   padding: 20px 105px;
+   padding: 20px 105px 0px;
    color: #dce0e0;
    margin-top: 70px;
+   margin-bottom: 0px;
+   font-size: 50px;
 }
+
+.h4-social {
+   color: gray;
+   padding: 0px 105px;
+   margin-top: 0px;
+   margin-bottom: 80px;
+   
+}
+
+
+.personal-photo img {
+   border-radius: 50%;
+   overflow: hidden;
+   width: 300px;
+   height: 300px;
+   float: right;
+   margin: -240px 200px 300px;
+   border: solid #1d4ed8 8px;
+   object-fit: cover;
+}
+
+.contact {
+   margin: 100px 105px 0 ;
+   
+}
+.contact h1 {
+   font-size: 50px;
+   color: #dce0e0;
+}
+.contact h4 {
+   color: gray;
+   
+   
+}
+.contact h2 {
+   color:#1d4ed8;
+   transition: all 0.5s ease;
+}
+
+.contact .number {
+   padding-top: 40px;
+   
+}
+
+
+
+.contact h2:hover {
+   transform: translateY(-10px);
+   color: #fff;
+   
+}
+
+.contact .email {
+   padding-top: 10px;
+}
+
+.emailImg {
+   float: right;
+   width: 150px;
+   height: 150px;
+   margin-top: -140px;
+   margin-left: 230px;
+   margin-right: -300px;
+   
+}
+
+
+
 
 
 
