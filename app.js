@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     //Link4'e tiklaninca
-    document.getElementById("link4",).addEventListener("click", function(event) {
-        event.preventDefault();
-        scrollToElement(".social-account");
-    });
+    // document.getElementById("link4",).addEventListener("click", function(event) {
+    //     event.preventDefault();
+    //     scrollToElement(".social-account");
+    // });
     //Link5'e tiklaninca
     document.getElementById("link5",).addEventListener("click", function(event) {
         event.preventDefault();
