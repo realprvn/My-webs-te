@@ -330,8 +330,9 @@ border-radius: 10px;
 
 .language {
    display: flex;
-   align-items: center;
-   justify-content: center;
+   /* align-items: center;
+   justify-content: center; */
+   padding-left: 105px;
    color: #fff;
    margin-bottom: 1rem;
    font-size: 3rem;
@@ -661,7 +662,42 @@ background: linear-gradient(90deg, rgba(247,247,243,1) 0%, rgba(104,100,104,0.99
 }
 
 
+  .herIkisi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .experience {
+   display: flex;
+   /* align-items: center;
+   justify-content: center; */
+   padding-right: 205px;
+   color: #fff;
+   margin-bottom: 1rem;
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 4rem;
+   position: relative;
+   transition: transform 0.7s ease;
+}
 
+.experience:hover {
+transform: translateY(-10px);
+
+}
+
+.logoEx {
+   display: flex;
+   justify-content: center; /* Yatayda ortalama yapar */
+   align-items: center; /* Dikeyde ortalama yapar */
+   transform: scale(1); /* Ölçeklendirme faktörünü ayarlayarak büyütebilirsiniz */
+   transition: transform 0.7s ease;
+}
+
+.logoEx:hover {
+   transform: translateY(-10px);
+}
 
 
 
