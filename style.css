@@ -691,13 +691,13 @@ transform: translateY(-10px);
    display: flex;
    justify-content: center; /* Yatayda ortalama yapar */
    align-items: center; /* Dikeyde ortalama yapar */
-   transform: scale(1); /* Ölçeklendirme faktörünü ayarlayarak büyütebilirsiniz */
+   transform: scale(1.3); /* Ölçeklendirme faktörünü ayarlayarak büyütebilirsiniz */
    transition: transform 0.7s ease;
 }
 
 .logoEx:hover {
    transform: translateY(-10px);
-   transform: scale(1.5);
+   transform: scale(1.7);
 }
 
 
