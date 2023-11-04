@@ -697,6 +697,7 @@ transform: translateY(-10px);
 
 .logoEx:hover {
    transform: translateY(-10px);
+   transform: scale(1.5);
 }
 
 
